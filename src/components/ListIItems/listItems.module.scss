@@ -1,0 +1,79 @@
+$brown:#2F2F2B;
+$Orange:#E71989;
+$shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$dark-shadow:0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+.icon{
+    font-size: 40px;
+    cursor: pointer;
+    &:hover{
+        box-shadow: $shadow;
+        padding: 5px;
+        transition: 1s;
+    }
+}
+
+.delete{
+    color: red;
+}
+
+.done{
+    color: green;
+}
+
+.updown{
+    color: #F7B705;
+}
+
+.mainRow{
+    box-shadow: $shadow;
+    padding: 20px 5px;
+    background-color: #F5F5F5;
+    
+    
+    &:hover{
+        box-shadow: $dark-shadow;
+        transition: 0.5s;
+    }
+}
+
+.isDone{
+    box-shadow: $shadow;
+    padding: 20px 5px;
+    background-color: #32CD32;
+    // background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    
+    &:hover{
+        box-shadow: $dark-shadow;
+        transition: 0.5s;
+    }
+}
+
+.user{
+    font-size: 40px;
+    color: blue;
+}
+
+h3{
+    color: #D23171;
+}
+
+.editInput{
+    width: 700px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.searchInput{
+    width: 250px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+
+    &:focus{
+        outline: none;
+    }
+}
+

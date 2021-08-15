@@ -1,0 +1,27 @@
+$brown:#2F2F2B;
+$Orange:#E71989;
+$shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+
+
+.plusBtn{
+    width: 60px;
+    height: 60px;
+    color: $Orange;
+    cursor: pointer;
+    text-shadow: $shadow;
+}
+
+.input{
+    background-color: $brown;
+    color: $Orange;
+    box-shadow: $shadow;
+    border: none;
+    height: 60px;
+    font-size: 30px;
+    &:focus{
+        outline: 0;
+        background-color: $brown;
+        color: $Orange;
+    }
+}
